@@ -8,7 +8,7 @@ public class Client {
 	public static void main(String[] args) throws IOException {
 		
 		Socket client = new Socket("localhost",4444);
-		ImageIcon imageIcon = new ImageIcon("C:\\Users\\pc\\Videos\\Radeon ReLive\\unknown.png");
+		
 		
 		while(true) {
 		InputStreamReader inputStreamReader = new InputStreamReader(client.getInputStream());
